@@ -1,5 +1,7 @@
 # Motor Unit Mode Network (MMNet)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18895984.svg)](https://doi.org/10.5281/zenodo.18895984)
+
 This repository provides an implementation of the **Motor-unit Mode Network (MMNet)** for extracting low-dimensional motor-unit modes from motor-unit discharge-rate signals.
 
 MMNet models coordinated activity across multiple motor units using a variational autoencoder architecture to identify latent patterns of neural drive underlying muscle activation.
@@ -47,4 +49,24 @@ python scripts/mmnet.py \
 --save_full_latent \
 --save_config
 
+```
+
+## Citation
+
+If you use MMNet in your research, please cite:
+
+Kamankesh, A. (2026).  
+**Motor-Unit Mode Network (MMNet)**.  
+Zenodo. https://doi.org/10.5281/zenodo.18895984
+
+BibTeX:
+
+```bibtex
+@software{kamankesh_mmnet_2026,
+  author  = {Kamankesh, Alireza},
+  title   = {Motor-Unit Mode Network (MMNet)},
+  year    = {2026},
+  doi     = {10.5281/zenodo.18895984},
+  url     = {https://github.com/AKamankesh96/Motor-Unit-Network---MMNet}
+}
 
