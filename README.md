@@ -69,4 +69,3 @@ BibTeX:
   doi     = {10.5281/zenodo.18895984},
   url     = {https://github.com/AKamankesh96/Motor-Unit-Network---MMNet}
 }
-
